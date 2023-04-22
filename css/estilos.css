@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
+
 body {
   display: flex;
   align-items: center;
@@ -13,6 +14,7 @@ body {
   min-height: 100vh;
   background: #669bbc;
 }
+
 .wrapper {
   width: 65vmin;
   height: 70vmin;
@@ -23,6 +25,7 @@ body {
   border-radius: 5px;
   background: #003049;
 }
+
 .game-details {
   color: #669bbc;
   font-weight: 500;
@@ -31,6 +34,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 .play-board {
   height: 100%;
   width: 100%;
@@ -38,9 +42,11 @@ body {
   background: #4a4e69;
   grid-template: repeat(30, 1fr) / repeat(30, 1fr);
 }
+
 .play-board .food {
   background: #FF003D;
 }
+
 .play-board .head {
   background: #60CBFF;
 }
@@ -49,6 +55,7 @@ body {
   display: none;
   justify-content: space-between;
 }
+
 .controls i {
   padding: 25px 0;
   text-align: center;
